@@ -53,14 +53,27 @@ body {
   color: #555;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  color:red;
+}
+
 /* The Header and Navigation */
 header {
   background: #eee;
   color: #000;
   height: 80px;
+  width: 100%;
   padding: 0px;
   margin: 0px;
   font-size: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 h1 {
@@ -74,16 +87,27 @@ h4 {
 }
 
 .master-head {
-  width: 80%;
+  width: 55%;
   display: flex;
+  margin: 0 auto;
 }
 
 .master-head ul {
   display: flex;
 }
 
-.logo {
+.master-head ul li {
+  padding: 30px;
+}
 
+.header-logo {
+  height: 20px;
+  padding: 30px;
+}
+
+.header-search {
+  height: 20px;
+  padding: 30px;
 }
 
 /* The Heading Section */
