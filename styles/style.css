@@ -94,6 +94,24 @@ h4 {
 }
 
 /* The Gallery Section */
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col-third {
+  width: 33%;
+}
+
+.col-two-third {
+  width: 64%;
+}
+
+img {
+  margin: 0px;
+  padding: 0px;
+}
 
 
 /* Paragraphs Section */
