@@ -16,6 +16,9 @@ a {
 a:hover {
   color:red;
 }
+a:active {
+    background-color: red;
+}
 
 /* The Header and Navigation */
 header {
